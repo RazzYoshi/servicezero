@@ -1,0 +1,5 @@
+[alias]
+    co = checkout
+    addsub = "!f() { \
+        cd $1 && git add . && cd ..; \
+      }; f"
